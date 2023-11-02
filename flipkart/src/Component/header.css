@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}   
+.firstHeader{
+    margin-top: -20px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+.firstHeader .logo{
+    font-size: 25px;
+    color: #2874fe;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+.firstHeaderText {
+    margin-top: -20px;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    color:grey;
+    font-style: italic;
+    cursor: pointer;
+    padding-right: 16px;
+}
+.yellowText{
+    color: #f9e107;
+    padding-left: 4px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    max-width: 540px;
+    min-width: 240px;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    background-color: rgb(216, 229, 241);
+}
+
+.searchBar.searchIcon{
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.searchBar input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-right: 5px;
+    padding-right:5px ;
+    background-color: rgb(216, 229, 241);
+    
+
+}
+.searchBar input:focus {
+    font-size: 15px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+  }
+
+  .thirdHeader{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  .thirdHeader .seller{
+    margin-left: 8px;
+  }
+  .fourthHeader{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  .fourthHeader span{
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .fifthHeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .fifthHeader span{
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .sixthHeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+  }
+
